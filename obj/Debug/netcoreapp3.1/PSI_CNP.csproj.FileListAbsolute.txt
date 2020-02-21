@@ -1,0 +1,17 @@
+C:\Users\cporter\source\repos\PSI_CNP\bin\Debug\netcoreapp3.1\PSI_CNP.exe
+C:\Users\cporter\source\repos\PSI_CNP\bin\Debug\netcoreapp3.1\PSI_CNP.deps.json
+C:\Users\cporter\source\repos\PSI_CNP\bin\Debug\netcoreapp3.1\PSI_CNP.runtimeconfig.json
+C:\Users\cporter\source\repos\PSI_CNP\bin\Debug\netcoreapp3.1\PSI_CNP.runtimeconfig.dev.json
+C:\Users\cporter\source\repos\PSI_CNP\bin\Debug\netcoreapp3.1\PSI_CNP.dll
+C:\Users\cporter\source\repos\PSI_CNP\bin\Debug\netcoreapp3.1\PSI_CNP.pdb
+C:\Users\cporter\source\repos\PSI_CNP\obj\Debug\netcoreapp3.1\PSI_CNP.csprojAssemblyReference.cache
+C:\Users\cporter\source\repos\PSI_CNP\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\cporter\source\repos\PSI_CNP\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\cporter\source\repos\PSI_CNP\obj\Debug\netcoreapp3.1\PSI_CNP_MarkupCompile.cache
+C:\Users\cporter\source\repos\PSI_CNP\obj\Debug\netcoreapp3.1\PSI_CNP_MarkupCompile.lref
+C:\Users\cporter\source\repos\PSI_CNP\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\cporter\source\repos\PSI_CNP\obj\Debug\netcoreapp3.1\PSI_CNP.g.resources
+C:\Users\cporter\source\repos\PSI_CNP\obj\Debug\netcoreapp3.1\PSI_CNP.AssemblyInfoInputs.cache
+C:\Users\cporter\source\repos\PSI_CNP\obj\Debug\netcoreapp3.1\PSI_CNP.AssemblyInfo.cs
+C:\Users\cporter\source\repos\PSI_CNP\obj\Debug\netcoreapp3.1\PSI_CNP.dll
+C:\Users\cporter\source\repos\PSI_CNP\obj\Debug\netcoreapp3.1\PSI_CNP.pdb

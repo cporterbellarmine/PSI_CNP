@@ -1,0 +1,102 @@
+﻿<Window x:Class="PSI_CNP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PSI_CNP"
+        mc:Ignorable="d"
+        Title="PSIClassificationWindow" Height="500" Width="800" Background="#FFF9F9F9">
+    <Grid HorizontalAlignment="Right" Width="800">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25"/>
+            <ColumnDefinition Width="130*"/>
+            <ColumnDefinition Width="145*"/>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="130*"/>
+            <ColumnDefinition Width="290*"/>
+            <ColumnDefinition Width="25"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label x:Name="lblSex" Content="Sex:" Grid.Column="1" HorizontalAlignment="Left" Margin="101,0,0,0" Grid.Row="4" VerticalAlignment="Center" Width="34"/>
+        <Label x:Name="lblAge" Content="Age:" Grid.Column="1" HorizontalAlignment="Left" Margin="102,0,0,0" Grid.Row="3" VerticalAlignment="Center"/>
+        <Label x:Name="lblNursingHome" Content="Nursing Home Resident:" HorizontalAlignment="Left" Margin="22,0,0,0" Grid.Row="5" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
+        <Label x:Name="lblCancer" Content="Neoplastic Disease:" HorizontalAlignment="Left" Margin="23,0,0,0" Grid.Row="6" VerticalAlignment="Center" Grid.Column="1"/>
+        <Label x:Name="lblLiverDisease" Content="Liver Disease:" Grid.Column="1" HorizontalAlignment="Left" Margin="56,0,0,0" Grid.Row="7" VerticalAlignment="Center"/>
+        <Label x:Name="lblHeartFailure" Content="Congestive Heart Failure:" HorizontalAlignment="Left" Margin="18,0,0,0" Grid.Row="8" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
+        <Label x:Name="lblCerebrovascular" Content="Cerebrovascular Disease:" HorizontalAlignment="Left" Margin="18,0,0,0" Grid.Row="9" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
+        <Label x:Name="lblRenalDisease" Content="Renal Disease:" Grid.Column="1" HorizontalAlignment="Left" Margin="50,0,0,0" Grid.Row="10" VerticalAlignment="Center"/>
+        <Label x:Name="lblMental" Content="Altered Mental Status:" Grid.Column="1" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="11" VerticalAlignment="Center"/>
+        <Label x:Name="lblRespiratory" Content="Respiratory Rate:" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="12" VerticalAlignment="Center" Margin="35,0,0,0"/>
+        <Label x:Name="lblSBP" Content="Systolic Blood Pressure:" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="13" VerticalAlignment="Center"/>
+        <Label x:Name="lblTemp" Content="Temperature:" Grid.Column="4" HorizontalAlignment="Left" Margin="56,0,0,0" Grid.Row="3" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
+        <Label x:Name="lblPulse" Content="Pulse:" Grid.Column="4" HorizontalAlignment="Left" Margin="94,0,0,0" Grid.Row="4" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
+        <Label x:Name="lblPH" Content="pH:" Grid.Column="4" HorizontalAlignment="Left" Margin="106,0,0,0" Grid.Row="5" VerticalAlignment="Center"/>
+        <Label x:Name="lblBUN" Content="BUN:" Grid.Column="4" HorizontalAlignment="Left" Grid.Row="6" VerticalAlignment="Center" Margin="98,0,0,0"/>
+        <Label x:Name="lblSodium" Content="Sodium:" Grid.Column="4" HorizontalAlignment="Left" Margin="82,0,0,0" Grid.Row="7" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
+        <Label x:Name="lblGlucose" Content="Glucose:" Grid.Column="4" HorizontalAlignment="Left" Margin="80,0,1,0" Grid.Row="8" VerticalAlignment="Center"/>
+        <Label x:Name="lblHemo" Content="Hemotocrit:" Grid.Column="4" HorizontalAlignment="Left" Margin="60,0,0,0" Grid.Row="9" VerticalAlignment="Center"/>
+        <Label x:Name="lblPPO" Content="Partial Pressure of Oxygen:" Grid.Column="3" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="10" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
+        <Label x:Name="lblPleural" Content="Pleural Effusion on x-ray:" Grid.Column="3" HorizontalAlignment="Left" Margin="20,2,0,0" Grid.Row="11" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="txtAge" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Center" Width="120"/>
+        <RadioButton x:Name="rdoFemale" Content="Female" Grid.Column="2" HorizontalAlignment="Left" Margin="79,0,0,0" Grid.Row="4" VerticalAlignment="Center" GroupName="Sex"/>
+        <RadioButton x:Name="rdoMale" Content="Male" Grid.Column="2" HorizontalAlignment="Left" Margin="16,0,0,0" Grid.Row="4" VerticalAlignment="Center" GroupName="Sex"/>
+        <CheckBox x:Name="chkYesNH" Content="Yes" Grid.Column="2" HorizontalAlignment="Left" Margin="16,0,0,0" Grid.Row="5" VerticalAlignment="Center"/>
+        <CheckBox x:Name="chkNoNH" Content="No" Grid.Column="2" HorizontalAlignment="Left" Margin="79,0,0,0" Grid.Row="5" VerticalAlignment="Center"/>
+        <CheckBox x:Name="chkYesND" Content="Yes" Grid.Column="2" HorizontalAlignment="Left" Margin="16,0,0,0" Grid.Row="6" VerticalAlignment="Center"/>
+        <CheckBox x:Name="chkNoND" Content="No" Grid.Column="2" HorizontalAlignment="Left" Margin="79,0,0,0" Grid.Row="6" VerticalAlignment="Center"/>
+        <CheckBox x:Name="chkYesLD" Content="Yes" Grid.Column="2" HorizontalAlignment="Left" Margin="16,0,0,0" Grid.Row="7" VerticalAlignment="Center"/>
+        <CheckBox x:Name="chkNoLD" Content="No" Grid.Column="2" HorizontalAlignment="Left" Margin="79,0,0,0" Grid.Row="7" VerticalAlignment="Center"/>
+        <CheckBox x:Name="chkYesCHF" Content="Yes" Grid.Column="2" HorizontalAlignment="Left" Margin="16,0,0,0" Grid.Row="8" VerticalAlignment="Center"/>
+        <CheckBox x:Name="chkNoCHF" Content="No" Grid.Column="2" HorizontalAlignment="Left" Margin="79,0,0,0" Grid.Row="8" VerticalAlignment="Center"/>
+        <CheckBox x:Name="chkYesCD" Content="Yes" Grid.Column="2" HorizontalAlignment="Left" Margin="16,0,0,0" Grid.Row="9" VerticalAlignment="Center"/>
+        <CheckBox x:Name="chkNoCD" Content="No" Grid.Column="2" HorizontalAlignment="Left" Margin="79,0,0,0" Grid.Row="9" VerticalAlignment="Center"/>
+        <CheckBox x:Name="chkYesRD" Content="Yes" Grid.Column="2" HorizontalAlignment="Left" Margin="16,0,0,0" Grid.Row="10" VerticalAlignment="Center"/>
+        <CheckBox x:Name="chkNoRD" Content="No" Grid.Column="2" HorizontalAlignment="Left" Margin="79,0,0,0" Grid.Row="10" VerticalAlignment="Center"/>
+        <CheckBox x:Name="chkYesAMS" Content="Yes" Grid.Column="2" HorizontalAlignment="Left" Margin="16,0,0,0" Grid.Row="11" VerticalAlignment="Center"/>
+        <CheckBox x:Name="chkNoAMS" Content="No" Grid.Column="2" HorizontalAlignment="Left" Margin="79,0,0,0" Grid.Row="11" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtRR" Grid.Column="2" HorizontalAlignment="Left" Margin="16,0,0,0" Grid.Row="12" TextWrapping="Wrap" VerticalAlignment="Center" Width="51"/>
+        <Label x:Name="lblBreaths" Content="breaths/min" Grid.Column="2" Margin="67,0,0,0" Grid.Row="12" VerticalAlignment="Center" HorizontalAlignment="Left" Width="87" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="txtSBP" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="13" TextWrapping="Wrap" VerticalAlignment="Center" Width="51" Margin="16,0,0,0"/>
+        <Label x:Name="lblMmHG" Content="mmHG" Grid.Column="2" HorizontalAlignment="Left" Margin="67,0,0,0" Grid.Row="13" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtTemp" Grid.Column="5" HorizontalAlignment="Left" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Center" Width="51" Margin="16,0,0,0"/>
+        <RadioButton x:Name="rdoTempCel" Content="C" Grid.Column="5" HorizontalAlignment="Left" Margin="75,0,0,0" Grid.Row="3" VerticalAlignment="Center" GroupName="temp"/>
+        <RadioButton x:Name="rdoTempFar" Content="F" Grid.Column="5" HorizontalAlignment="Left" Margin="131,0,0,0" Grid.Row="3" VerticalAlignment="Center" GroupName="temp"/>
+        <TextBox x:Name="txtPulse" Grid.Column="5" HorizontalAlignment="Left" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Center" Width="51" Margin="16,0,0,0"/>
+        <Label x:Name="lblPulse1" Content="beats/min" Grid.Column="5" HorizontalAlignment="Left" Margin="75,0,0,0" Grid.Row="4" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtPh" Grid.Column="5" HorizontalAlignment="Left" Margin="16,0,0,0" Grid.Row="5" TextWrapping="Wrap" VerticalAlignment="Center" Width="51"/>
+        <TextBox x:Name="txtBUN" Grid.Column="5" HorizontalAlignment="Left" Margin="16,0,0,0" Grid.Row="6" TextWrapping="Wrap" VerticalAlignment="Center" Width="51"/>
+        <TextBox x:Name="txtSodium" Grid.Column="5" HorizontalAlignment="Left" Margin="16,0,0,0" Grid.Row="7" TextWrapping="Wrap" VerticalAlignment="Center" Width="51"/>
+        <TextBox x:Name="txtGlucose" Grid.Column="5" HorizontalAlignment="Left" Margin="16,0,0,0" Grid.Row="8" TextWrapping="Wrap" VerticalAlignment="Center" Width="51"/>
+        <TextBox x:Name="txtHemotocrit" Grid.Column="5" HorizontalAlignment="Left" Margin="16,0,0,0" Grid.Row="9" TextWrapping="Wrap" VerticalAlignment="Center" Width="51"/>
+        <TextBox x:Name="txtPPO" Grid.Column="5" HorizontalAlignment="Left" Margin="16,0,0,0" Grid.Row="10" TextWrapping="Wrap" VerticalAlignment="Center" Width="51"/>
+        <RadioButton x:Name="rdomgdlBUN" Content="mg/dl" Grid.Column="5" HorizontalAlignment="Left" Margin="75,0,0,0" Grid.Row="8" VerticalAlignment="Center" GroupName="Glucose"/>
+        <RadioButton x:Name="rdommolBUN" Content="mmol/L" Grid.Column="5" HorizontalAlignment="Left" Margin="131,0,0,0" Grid.Row="6" VerticalAlignment="Center" GroupName="BUN"/>
+        <Label x:Name="lblmmolSodium" Content="mmol/L" Grid.Column="5" HorizontalAlignment="Left" Margin="75,0,0,0" Grid.Row="7" VerticalAlignment="Center"/>
+        <RadioButton x:Name="rdomgdlGlucose" Content="mg/dl" Grid.Column="5" HorizontalAlignment="Left" Margin="75,0,0,0" Grid.Row="6" VerticalAlignment="Center" GroupName="BUN"/>
+        <RadioButton x:Name="rdommolGlucose" Content="mmol/L" Grid.Column="5" HorizontalAlignment="Left" Margin="131,0,0,0" Grid.Row="8" VerticalAlignment="Center" GroupName="Glucose"/>
+        <Label x:Name="lblHemotocrit" Content="%" Grid.Column="5" HorizontalAlignment="Left" Margin="75,0,0,0" Grid.Row="9" VerticalAlignment="Center"/>
+        <RadioButton x:Name="rdommhgPPO" Content="mmHg" Grid.Column="5" HorizontalAlignment="Left" Margin="75,0,0,0" Grid.Row="10" VerticalAlignment="Center" GroupName="PPO"/>
+        <CheckBox x:Name="chkPEXYes" Content="Yes" Grid.Column="5" HorizontalAlignment="Left" Margin="16,0,0,0" Grid.Row="11" VerticalAlignment="Center"/>
+        <CheckBox x:Name="chkPEXNo" Content="No" Grid.Column="5" HorizontalAlignment="Left" Margin="75,0,0,0" Grid.Row="11" VerticalAlignment="Center"/>
+        <Button x:Name="btnCalculate" Content="Button" Grid.Column="4" HorizontalAlignment="Center" Margin="0,15,0,0" Grid.Row="12" VerticalAlignment="Top" Height="31" Grid.RowSpan="2" Width="96" Click="click"/>
+        <Label Content="Pneumonia Severity Index Interface" Grid.Column="2" HorizontalAlignment="Left" Margin="90,6,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.ColumnSpan="4" Width="343" FontWeight="Bold" FontSize="20" Grid.RowSpan="2"/>
+        <TextBlock x:Name="txtRecommendation" Grid.Column="5" HorizontalAlignment="Left" Height="55" Margin="16,10,0,0" Grid.RowSpan="3" Grid.Row="12" TextWrapping="Wrap" VerticalAlignment="Top" Width="225"/>
+        <RadioButton x:Name="rdokPa" Content="kPa" Grid.Column="5" HorizontalAlignment="Left" Margin="133,0,0,0" Grid.Row="10" VerticalAlignment="Center" GroupName="PPO"/>
+    </Grid>
+</Window>
